@@ -1,0 +1,80 @@
+<div class="container">
+<!-- 	<div class="row">
+		<div class="col-md-4">
+			<ul>
+				<li>{{geobytestitle}}</li>
+				<li>{{elevation}}</li>
+				<li>{{geobytescity}}</li>
+				<li>{{geobytesmapreference}}</li>
+				<li>{{geobytesregionlocationcode}}</li>
+				<li>{{geobytestimezone}}</li>
+			</ul>
+			<div>
+				{{details}}
+			</div>		
+		</div>
+		
+		<div class="col-md-8">
+			<div>
+				<ng-map id="googlemap" zoom="4" center="current-location" on-click="placeMarker()" ></ng-map>
+			</div>
+		</div>		
+	</div> -->
+
+	  <div class="container">
+
+        <!-- Page Heading -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Map
+                    <small>click on the location</small>
+                </h1>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Project One -->
+        <div class="row">
+            <div class="col-md-7">
+                
+	<ng-map id="googlemap" zoom="4" center="current-location" on-click="placeMarker()" ></ng-map>            </div>
+            <div class="col-md-5">
+               <div>
+				<h4>{{geobytestitle}}</h4>
+				<h4>{{elevation}}</h4>
+				<h4>{{geobytescity}}</h4>
+				<h4>{{geobytesmapreference}}</h4>
+				<h4>{{geobytesregionlocationcode}}</h4>
+				<h4>{{geobytestimezone}}</h4>
+			</div>
+            </div>
+            	<div>
+				{{details}}
+			</div>	
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+
+        <!-- Footer -->
+        <footer>
+       <!--      <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Your Website 2014</p>
+                </div>
+            </div> -->
+            <!-- /.row -->
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</div>
+
